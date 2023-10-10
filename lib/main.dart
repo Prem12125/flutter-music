@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
 
 void main() {
-  
+   
   runApp(MyApp());
 }
 
@@ -26,8 +26,8 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen> {
   
   List<String> songPaths = [
     "assets/Guitar1.mp3",
-    "assets/Guitar2.mp3",
-    "assets/song3.mp3",
+    "assets/Guitar1.mp3",
+    "assets/song1.mp3",
   ];
   int currentSongIndex = 0;
 
